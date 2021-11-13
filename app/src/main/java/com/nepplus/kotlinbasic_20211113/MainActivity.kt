@@ -15,7 +15,9 @@ class MainActivity : AppCompatActivity() {
 
             // 이 내부의 코드는, 토스트 띄우기 버튼이 누릴때 실행됨.
 
-            Toast.makeText(this, "토스트 띄우기", Toast.LENGTH_SHORT).show()
+
+
+            Toast.makeText(this, "다시 토스트 띄우기", Toast.LENGTH_SHORT).show()
         }
 
         btnLog.setOnClickListener {
