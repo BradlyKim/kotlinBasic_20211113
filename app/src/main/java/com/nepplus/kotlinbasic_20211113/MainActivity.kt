@@ -41,6 +41,10 @@ class MainActivity : AppCompatActivity() {
 
             txtContent.text = inputContent
 
+//          3. 입력한 내용을 토슽로 출력
+
+            Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
+
 
         }
 
